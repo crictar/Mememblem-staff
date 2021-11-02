@@ -46,7 +46,7 @@ html {
     max-width: 2000px;
     width: 100%;
     margin: 0 auto !important;
-    background-image: url(../../common/img/bg.jpg);
+    background-image: url(../images/fondo_desktop.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
@@ -55,7 +55,7 @@ html {
 }
 
 html.character {
-    background-image: url(../../common/img/bg_character.jpg);
+    background-image: url(../images/fondo_desktop.jpg);
     background-color: #193438;
 }
 
@@ -85,9 +85,12 @@ html.ja {
     overflow-wrap: break-word;
     -webkit-text-size-adjust: 100%;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 
 .head {
-    background: url(../../common/img/header.png) no-repeat top center;
+    background: url(../images/header.jpg) no-repeat top center;
     height: 184px;
     position: relative;
 }
